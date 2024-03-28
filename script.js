@@ -71,5 +71,5 @@ dots[slideIndex - 1].className += " active";
 });
 window.addEventListener('scroll', function() {
 var scrolledHeight = window.pageYOffset;
-document.body.style.backgroundPositionY = -(scrolledHeight * 1.25) + 'px';
+document.body.style.backgroundPositionY = -(scrolledHeight * 1.5) + 'px';
 });
